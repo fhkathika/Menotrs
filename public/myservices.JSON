@@ -1,0 +1,74 @@
+[
+    {
+        "id":1,
+        "name": "IELTS",
+        "price": 12650,
+        "img": "https://ieltscanadatest.com/wp-content/uploads/2018/02/map2.png",
+        "enrollment":6608
+    },
+   
+    {
+        "id":2,
+        "name": "GED",
+        "price": 12650,
+        "img": "https://ieltscanadatest.com/wp-content/uploads/2018/02/map2.png",
+        "enrollment":6608
+        
+    },
+    {
+        "id":3,
+        "name": "SAT",
+        "price": 12650,
+        "img": "https://ieltscanadatest.com/wp-content/uploads/2018/02/map2.png",
+        "enrollment":6608
+    },
+    {
+        "id":4,
+        "name": "Bank Job",
+        "price": 12650,
+        "img": "https://ieltscanadatest.com/wp-content/uploads/2018/02/map2.png",
+        "enrollment":6608
+    },
+    {
+        "id":5,
+        "name": "Spoken English & Phonics",
+        "price": 12650,
+        "img": "https://ieltscanadatest.com/wp-content/uploads/2018/02/map2.png",
+        "enrollment":6608
+    },
+    {
+        "id":6,
+        "name": "Grammer & Writting",
+        "price": 12650,
+        "img": "https://ieltscanadatest.com/wp-content/uploads/2018/02/map2.png",
+        "enrollment":6608
+    },
+    {
+        "id":7,
+        "name": "IELTS for Immigration",
+        "price": 12650,
+        "img": "https://ieltscanadatest.com/wp-content/uploads/2018/02/map2.png",
+        "enrollment":6608
+    },
+    {
+        "id":8,
+        "name": "PTE Acamedic",
+        "price": 12650,
+        "img": "https://ieltscanadatest.com/wp-content/uploads/2018/02/map2.png",
+        "enrollment":6608
+    },
+    {
+        "id":9,
+        "name": "IBA-MBA",
+        "price": 14950,
+        "img": "https://ieltscanadatest.com/wp-content/uploads/2018/02/map2.png",
+        "enrollment":6608
+    },
+    {
+        "id":10,
+        "name": "BBA (IBA)",
+        "price": 19550,
+        "img": "https://ieltscanadatest.com/wp-content/uploads/2018/02/map2.png",
+        "enrollment":6608
+    }
+]
