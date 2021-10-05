@@ -7,7 +7,7 @@ const Services = () => {
     const [services]=useServices()
     return (
         <div className='services-components'>
-            <h1>Our Services</h1>
+            <h1 style={{color:"firebrick"}}>Our Services</h1>
             <div className="services-style">
             {
                 services.map(service => <Service service={service}></Service> )

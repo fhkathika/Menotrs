@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "name": "GED",
+        "img":"https://images-na.ssl-images-amazon.com/images/I/51AJd4DUcfL._SX384_BO1,204,203,200_.jpg"
+    },
+    {
+        "id":2,
+        "name": "Speaking English",
+        "img":"https://images-na.ssl-images-amazon.com/images/I/511ULzvQN3L.jpg"
+    },
+    {
+        "id":3,
+        "name": "Medical Exam",
+        "img":"https://image.choicemandu.com/cache/catalog/category-1288-270x270.jpeg"
+    },
+    {
+        "id":4,
+        "name": "IELTS",
+        "img":"https://ieltsliz.com/wp-content/uploads/2070/03/ielts-trainer-book.jpg"
+    },
+    {
+        "id":5,
+        "name": "Grammer Book",
+        "img":"https://www.boikhata.com.bd/wp-content/uploads/2019/11/OXEG01.jpg"
+    },
+    {
+        "id":6,
+        "name": "Bank Exam",
+        "img":"https://images-na.ssl-images-amazon.com/images/I/51m62Z+jBdL.jpg"
+    }
+]

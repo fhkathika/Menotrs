@@ -11,64 +11,64 @@
         "id":2,
         "name": "GED",
         "price": 12650,
-        "img": "https://ieltscanadatest.com/wp-content/uploads/2018/02/map2.png",
-        "enrollment":6608
+        "img": "https://qph.fs.quoracdn.net/main-qimg-c6ead3c5c33f237a41c04d17e3cdd123",
+        "enrollment":5607
         
     },
     {
         "id":3,
         "name": "SAT",
         "price": 12650,
-        "img": "https://ieltscanadatest.com/wp-content/uploads/2018/02/map2.png",
-        "enrollment":6608
+        "img": "https://worldscholarshipforum.com/wp-content/uploads/2019/05/best-sat-prep-courses.jpg",
+        "enrollment":4666
     },
     {
         "id":4,
         "name": "Bank Job",
         "price": 12650,
-        "img": "https://ieltscanadatest.com/wp-content/uploads/2018/02/map2.png",
+        "img": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201708/bank-jobs-647_082617012122.jpg",
         "enrollment":6608
     },
     {
         "id":5,
         "name": "Spoken English & Phonics",
         "price": 12650,
-        "img": "https://ieltscanadatest.com/wp-content/uploads/2018/02/map2.png",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlxa67auig7DYUINjzv0nx-TTJNk3SoGV73A&usqp=CAU",
         "enrollment":6608
     },
     {
         "id":6,
         "name": "Grammer & Writting",
         "price": 12650,
-        "img": "https://ieltscanadatest.com/wp-content/uploads/2018/02/map2.png",
-        "enrollment":6608
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmUNCysSA10TGNMAspZq3vx6LfJmG96aMfM8O02hzECf2-PKAaflwTjSC808pn4e8AUak&usqp=CAU",
+        "enrollment":3467
     },
     {
         "id":7,
         "name": "IELTS for Immigration",
         "price": 12650,
-        "img": "https://ieltscanadatest.com/wp-content/uploads/2018/02/map2.png",
-        "enrollment":6608
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR1xpGkWmtl1JajOzdXn2CVgNz9Qp0TQjHUQnJN6HjHOFlDnlcTrZAp_CMufDB_K28yHQ&usqp=CAU",
+        "enrollment":5690
     },
     {
         "id":8,
         "name": "PTE Acamedic",
         "price": 12650,
-        "img": "https://ieltscanadatest.com/wp-content/uploads/2018/02/map2.png",
-        "enrollment":6608
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKd8PGp1ienJMKJW-4G0F9rH1GC1PeyBB7LQ&usqp=CAU",
+        "enrollment":2378
     },
     {
         "id":9,
         "name": "IBA-MBA",
         "price": 14950,
-        "img": "https://ieltscanadatest.com/wp-content/uploads/2018/02/map2.png",
-        "enrollment":6608
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmqqydIxwV2BFYsl5kIoSsb6_h5MOky1SrcQ&usqp=CAU",
+        "enrollment":5347
     },
     {
         "id":10,
         "name": "BBA (IBA)",
         "price": 19550,
-        "img": "https://ieltscanadatest.com/wp-content/uploads/2018/02/map2.png",
-        "enrollment":6608
+        "img": "https://blog.epravesh.com/wp-content/uploads/2017/05/BBA-career-featured.jpg",
+        "enrollment":3468
     }
 ]

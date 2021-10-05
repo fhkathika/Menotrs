@@ -1,5 +1,7 @@
 .enrolmentAnalysis{
-    background-color: rgb(247, 198, 165);
+    /* background-color:#fff176 ; */
+    background-image: linear-gradient(90deg,#ffcdd2,#fffde7,#ffcdd2);
+    background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
 }

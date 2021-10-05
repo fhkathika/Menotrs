@@ -1,169 +1,31 @@
 import { Card, CardActionArea, CardContent, CardMedia, Grid, Typography } from '@mui/material';
 import { Box } from '@mui/system';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import Teachers from '../Teachers/Teachers';
 import './About.css'
 
 const About = () => {
+  // load teachers data
+  const [teachers,setTeachers]=useState([])
+  useEffect(()=>{
+    fetch('./teachers.JSON')
+    .then(res => res.json())
+    .then(data => setTeachers(data))
+  },[])
     return (
         <div>
-           <h1>Our Teachers</h1>
+           <h1 style={{color:"red"}}>Our Teachers</h1>
                <div className="teachers">
-            <Box sx={{ flexGrow: 1 }}>
-      <Grid container spacing={1}>
-        <Grid container item spacing={3}>
-        <Grid item xs={4}>
-        <Card sx={{ maxWidth: 345 , maxHeight:600 ,mt:4,ml:4  }}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="350"
-          image="https://camblyavatars.s3.amazonaws.com/5b7aa9270a570b00436455c5s200?h=df6e711bd5846a411ca00a735e09605e"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-          Anna P.
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
           
-          Teaching since 2011
-Awarded National Merit Scholarship from Pillsbury Corporation
-          </Typography>
-        </CardContent>
-      </CardActionArea>
+        {/* teachers card */}
+        {
+teachers.map(teacher =><Teachers   key={teacher.id} teacher={teacher}></Teachers>)
+        }
     
-    </Card>
-      </Grid>
-      <Grid item xs={4}>
-      <Card sx={{ maxWidth: 345 , maxHeight:600 ,mt:4,ml:4  }}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="350"
-          image="https://camblyavatars.s3.amazonaws.com/5cac24444a1fd30031917a8ds200?h=055b9257247a06c245c941b0752164ee"
-          alt="green iguana"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-          Nikita B.
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-          
-Speaks
-Teaches Beginner, Intermediate, Advanced
-T from Tomsk State Univeristy
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-    
-    </Card>
-      </Grid>
-      <Grid item xs={4}>
-      <Card sx={{ maxWidth: 345 , maxHeight:600 ,mt:4,ml:4  }}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="350"
-          image="https://camblyavatars.s3.amazonaws.com/5d3e114605cf394902caf899s200?h=afd9db033fca611b17f4511b95e10e3a"
-          alt="green iguana"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-          Robin L.
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-          
-
-          Speaks Spanish
-Teaching since 2011
-Awarded National Merit Scholarship from Pillsbury
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-    
-    </Card>
-      </Grid>
-       
-    </Grid>
-    <Grid container item spacing={3}>
-        <Grid item xs={4}>
-        <Card sx={{ maxWidth: 345 , maxHeight:600 ,mt:4,ml:4  }}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="350"
-          image="https://camblyavatars.s3.amazonaws.com/5dd97565a2f254bff57ae6ccs200?h=f0c97e65497dc73fc5489b0072d794c3"
-          alt="green iguana"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-          Nathaniel B.
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-          
-          Speaks English, Spanish, Portuguese
-Teaching since 2018
-Teaches Beginner, Intermediate
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-    
-    </Card>
-      </Grid>
-      <Grid item xs={4}>
-      <Card sx={{ maxWidth: 345 , maxHeight:600 ,mt:4,ml:4  }}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="350"
-          image="https://camblyavatars.s3.amazonaws.com/5cab5665319e2f002607a766s200"
-          alt="green iguana"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-          Felipe R.
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-          
-Speaks
-Teaches Beginner, Intermediate, Advanced
-T from Tomsk State Univeristy
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-    
-    </Card>
-      </Grid>
-      <Grid item xs={4}>
-      <Card sx={{ maxWidth: 345 , maxHeight:600 ,mt:4,ml:4  }}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="350"
-          image="https://camblyavatars.s3.amazonaws.com/5cff1ebf9f59ee002a43061cs200?h=9791383b8907acaacfd56b91f47d233a"
-          alt="green iguana"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-          Petrena
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-
-          Speaks Russian, English
-Teaches Beginner, Intermediate
-Teaches students 1 and up
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-    
-    </Card>
-      </Grid>
-       
-    </Grid>
-      </Grid>
-    </Box>
+  
             </div>
             <hr/>
-            <h1>About</h1>
+            <h1 style={{color:"red"}}>About</h1>
             <Box display="grid" gridTemplateColumns="repeat(12, 1fr)" gap={2} >
            
   <Box gridColumn="span 8"  sx={{ ml: 4 }} >
@@ -181,7 +43,7 @@ Since 1996, our students have continually registered outstanding results in thei
 </Box>
  <hr />
             <div >
-            <h1>Mission Statement</h1>
+            <h1 style={{color:"red"}}>Mission Statement</h1>
             <div className='img2'><img src="https://www.mentors.com.bd/immigration/wp-content/uploads/2021/02/Skill-worker-1-1140x494.jpg" alt="" /></div>
           
             <div className='about2'>
@@ -190,7 +52,7 @@ Since 1996, our students have continually registered outstanding results in thei
             </div>
 
             </div>
-            <hr />
+           
            
         </div>
     );

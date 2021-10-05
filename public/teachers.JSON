@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "name": "Anna P.",
+        "img":"https://camblyavatars.s3.amazonaws.com/5b7aa9270a570b00436455c5s200?h=df6e711bd5846a411ca00a735e09605e",
+        "goodAt":"Teaching since 2011 Awarded National Merit Scholarship from Pillsbury Corporation"
+    },
+    {
+        "id":2,
+        "name": "Nikita B.",
+        "img":"https://camblyavatars.s3.amazonaws.com/5cac24444a1fd30031917a8ds200?h=055b9257247a06c245c941b0752164ee",
+        "goodAt":"Speaks Teaches Beginne Intermediate, Advanced T from Tomsk State Univeristy"
+    },
+    {
+        "id":3,
+        "name": "Robin L.",
+        "img":"https://camblyavatars.s3.amazonaws.com/5d3e114605cf394902caf899s200?h=afd9db033fca611b17f4511b95e10e3a",
+        "goodAt":"  Speaks Spanish Teaching since 2011 Awarded National Merit Scholarship from Pillsbury"
+    },
+    {
+        "id":4,
+        "name": "Nathaniel B.",
+        "img":"https://camblyavatars.s3.amazonaws.com/5dd97565a2f254bff57ae6ccs200?h=f0c97e65497dc73fc5489b0072d794c3",
+        "goodAt":"  Speaks English, Spanish,Portuguese Teaching since 2018 Teaches Beginner, Intermediate"
+    },
+    {
+        "id":5,
+        "name": "Felipe R.",
+        "img":"https://camblyavatars.s3.amazonaws.com/5cab5665319e2f002607a766s200",
+        "goodAt":"Speaks Teaches Beginner, Intermediate, Advanced T from Tomsk State Univeristy"
+    },
+    {
+        "id":6,
+        "name": "Petrena",
+        "img":"https://camblyavatars.s3.amazonaws.com/5cff1ebf9f59ee002a43061cs200?h=9791383b8907acaacfd56b91f47d233a",
+        "goodAt":"Speaks Russian, English Teaches Beginner, Intermediate Teaches students 1 and up"
+    }
+]

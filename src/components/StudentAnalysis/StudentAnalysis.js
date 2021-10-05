@@ -8,16 +8,14 @@ import './StudentAnalysis.css'
 const StudentAnalysis = () => {
     const [services]=useServices()
  
-    
-   
-   
     return (
         <div>
-            <h1> Service Enrolment Analysis</h1>
+            <h1 style={{color:"firebrick"}}> Service Enrolment Analysis</h1>
         <div>
+            {/* map data for student enrollment analysis */}
                           
     {
-      services.slice(0,3).map(service=><SingleServiseAnalysis service={service.enrollment} name={service.name}></SingleServiseAnalysis>)
+      services.slice(0,3).map(service=><SingleServiseAnalysis key={service.id} service={service.enrollment} name={service.name}></SingleServiseAnalysis>)
     }
               
         </div>

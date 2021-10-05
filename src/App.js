@@ -34,9 +34,10 @@ function App() {
       <Route path="/services">
       <Services></Services>
       </Route>
-      {/* courseschedule */}
-      <Route path="/courseschedule">
-      <CourseSchedule></CourseSchedule>
+    
+      {/* books */}
+      <Route path="/books">
+      <Book></Book>
       </Route>
       {/* notfound */}
       <Route path="*">

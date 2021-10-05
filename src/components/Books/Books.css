@@ -1,6 +1,7 @@
 .books{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    padding: 2%;
-    gap: 5%;
+    padding: 2% 5% 6% ;
+    margin-bottom: 3%;
+    gap: 10%;
 }

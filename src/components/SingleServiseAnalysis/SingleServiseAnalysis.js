@@ -6,10 +6,9 @@ import CountUp from 'react-countup';
 
 const SingleServiseAnalysis = (props) => {
 const{service,name}=props
-   
-    // const [enrollment]=props.service
+
     return (
-   
+  
             <div  className='enrolmentAnalysis'>
                <h1>
                {name} :  <CountUp className='countStyle' start={0} end={service} duration={3} separator=",">

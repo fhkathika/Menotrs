@@ -14,10 +14,10 @@ const Home = () => {
                 <StudentAnalysis service={services}></StudentAnalysis>
             </div>
         <div>
-            <h1>Our Popular Services</h1>
+            <h1 style={{color:"firebrick"}}>Our Popular Services</h1>
             <div className="homeServicesStyle">
             {
-                services.slice(0,4).map(service => <Service service={service}></Service>)
+                services.slice(0,4).map(service => <Service key={service.id} service={service}></Service>)
             }
             </div>
         </div>
