@@ -1,11 +1,12 @@
 import { Button, Card, CardActionArea, CardActions, CardContent, CardMedia, Typography } from '@mui/material';
+import { maxHeight } from '@mui/system';
 import React from 'react';
 import './Books.css'
 
 const Book = () => {
     return (
         <div className="books" >
-                <Card sx={{ maxWidth: 345  }}>
+                <Card sx={{ maxWidth: 345}}>
       <CardActionArea>
         <CardMedia
           component="img"

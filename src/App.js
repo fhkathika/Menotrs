@@ -8,6 +8,7 @@ import Services from './components/Services/Services';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Book from './components/Books/Book';
+import CourseSchedule from './components/CourseSchedule/CourseSchedule';
 
 
 function App() {
@@ -33,9 +34,9 @@ function App() {
       <Route path="/services">
       <Services></Services>
       </Route>
-      {/* books */}
-      <Route path="/books">
-      <Book></Book>
+      {/* courseschedule */}
+      <Route path="/courseschedule">
+      <CourseSchedule></CourseSchedule>
       </Route>
       {/* notfound */}
       <Route path="*">
