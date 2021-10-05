@@ -1,15 +1,16 @@
 import { AppBar, Button, Toolbar, Typography } from '@mui/material';
 import { red } from '@mui/material/colors';
-import { border, Box, margin } from '@mui/system';
+import {  Box } from '@mui/system';
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Header.css'
 
 const activeStyle={
     fontWeight: "bold",
-    color: "black",
+    color: "red",
     textDecoration:'none',
     margin:'10px',
+   
      }
      const appBar={ 
        background: '#fffde7',
@@ -47,7 +48,7 @@ const Header = () => {
                 Services
             </NavLink>
           
-            <NavLink style={activeStyle} to="/books">
+            <NavLink style={activeStyle} to="/books" >
             Books&Schediles
             </NavLink>
           </Box>
