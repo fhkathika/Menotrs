@@ -10,7 +10,7 @@ const Services = () => {
             <h1 style={{color:"firebrick"}}>Our Services</h1>
             <div className="services-style">
             {
-                services.map(service => <Service service={service}></Service> )
+                services.map(service => <Service key={service.id} service={service}></Service> )
             }
             </div>
            

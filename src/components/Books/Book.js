@@ -18,7 +18,7 @@ const Book = () => {
         <h1 style={{color:'red'}}>Our Course Books</h1>
  <div className="books">
           {
-books.map(book => <BookSingle book={book}></BookSingle>)
+books.map(book => <BookSingle key={book.id} book={book}></BookSingle>)
           }
         </div>
      
