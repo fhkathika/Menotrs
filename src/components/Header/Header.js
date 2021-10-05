@@ -49,7 +49,7 @@ const Header = () => {
             </NavLink>
           
             <NavLink style={activeStyle} to="/books" >
-            Books&Schediles
+            Books&Schedules
             </NavLink>
           </Box>
        
